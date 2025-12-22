@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - E_Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="signup-page">
+    <div class="auth-container">
+        <h1>E_Store</h1>
+        <h2 class="form-title">SignUp Page</h2>
+        <form id="signup-form">
+            <div class="input-group">
+                <label>First Name</label>
+                <input type="text" id="sign-fname">
+            </div>
+            <div class="input-group">
+                <label>Last Name</label>
+                <input type="text" id="sign-lname">
+            </div>
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" id="sign-user">
+                <small class="hint">Min 3 chars, must have '_' and numbers</small>
+                <small class="error-msg"></small>
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="sign-pass">
+                <small class="hint">1 Uppercase, 1 Underscore, 2 Numbers</small>
+                <small class="error-msg"></small>
+            </div>
+            <button type="submit" class="btn-primary">Signup</button>
+            <p>Already have an account? <a href="login.html" class="link">Login</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

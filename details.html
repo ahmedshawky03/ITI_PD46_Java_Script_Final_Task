@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details - E_Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body id="details-page">
+    <nav>
+        <div class="logo">E_Store</div>
+        <div class="nav-controls">
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <div class="container center-content">
+        <div class="details-card">
+            <div class="details-img-container">
+                <img id="detail-img" src="" alt="Product">
+            </div>
+            <div class="details-info">
+                <h2 id="detail-title">Loading...</h2>
+                <div class="detail-meta">
+                    <span id="detail-price"></span>
+                    <span id="detail-rate"></span>
+                </div>
+                <p class="desc-label">Description:</p>
+                <p id="detail-desc"></p>
+                <a href="index.html" class="btn-primary" style="display:inline-block; text-align:center; text-decoration:none;">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

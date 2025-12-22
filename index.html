@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E_Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body id="home-page">
+    <nav>
+        <div class="logo">E_Store</div>
+        <div class="nav-controls">
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="carousel-container">
+            <div id="carousel-slide" class="carousel-slide">
+                </div>
+
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search products...">
+            <select id="filter-select">
+                <option value="all">All Categories</option>
+            </select>
+        </div>
+
+        <div id="product-grid" class="grid-container">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
